@@ -1,0 +1,25 @@
+
+#part3 img{
+    width: 60vh;
+}
+#part3 h1{
+    width:500px;
+    margin-bottom:1rem;
+}
+#part3 .col-md-5{
+margin-top: 22%;
+padding:0;
+}
+
+#part3 .col-md-7{
+    margin-top: 5%;
+    padding:0;
+    }
+    
+
+#part3 .btn{
+    width: 100px;
+    color: azure;
+    background: linear-gradient(-45deg,#00C9D6,#0FEEB6);
+    border-radius: 30px;
+}

@@ -1,0 +1,30 @@
+#part6 .btn{
+    margin-top: 6%;
+    width: 150px;
+    color: azure;
+    background: linear-gradient(-45deg,#00C9D6,#0FEEB6);
+    border-radius: 30px;
+}
+
+#part6 img{
+    width: 60vh;
+}
+
+#part6 .sub{
+    margin-top: 25%;
+}
+#part6 h1{
+    width:500px;
+    color:#2fc29d;
+}
+
+#part6 p{
+    margin-bottom:1.5rem;
+    color:#424242;
+    font-size: larger;
+}
+
+#part6 .emailinput{
+ margin-bottom: 4 %;
+ margin-top: 2%;
+}

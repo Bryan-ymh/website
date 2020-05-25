@@ -1,0 +1,126 @@
+#part5 img{
+    width: 100%;
+}
+#part5 .team{
+    padding:100 0 0 0;
+}
+
+#part5 .card-wrapper{
+    height: 400px;
+    width: 300px;
+    perspective: 1000px;
+}
+
+#part5 .content{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* transition:transform 20s; */
+    transform-style: preserve-3d;
+}
+
+#part5 .card-wrapper:hover .content{
+    transform: rotateX(-180deg);
+    transition:1s;
+    /* z-index: 10; */
+}
+
+#part5 .content img{
+    margin-top: 16%;
+    width: 80%;
+
+}
+
+#part5 .face-front, .face-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ECFCF7;
+    border-radius: 30px;
+    color: #424242;
+    /* -webkit-backface-visibility: hidden; Safari */
+    backface-visibility: hidden;
+} 
+#part5 .face-back{
+    transform:rotateX(-180deg);
+    /* display: none; */
+}
+
+#part5 .about{
+    padding:100 100 100 0
+}
+#part5 .team h1{
+    color:#2fc29d;
+}
+
+#part5 .pword h1{
+    color:#2fc29d;
+    width:100%;
+    font-size: 30px;
+}
+
+#part5 .name{
+
+    color:#2fc29d;
+    font-weight: 500;
+    font-size:20px;
+}
+
+#part5 .card-body{
+    color:#424242;
+    font-size:14px;
+}
+#part5 .face-back{
+    padding:50 20 10 20;
+}
+
+
+#part5 .about p{
+    color:#424242;
+    font-size:20px;
+}
+
+#part5 .about h1{
+    color:#2fc29d;
+    font-size:20px;
+    font-weight: 500;
+}
+
+#part5 .pword .partner img{
+    width: 20%;
+}
+
+#part5 .hkstp{
+    width: 20%;
+    padding:0 10 0 0;
+}
+
+#part5 .dbs{
+    margin-top: 3%;
+    margin-left:4%;
+    margin-right:4%;
+    width: 15%;
+}
+
+#part5 .pword{
+    margin-top: 4%;
+    margin-right:2%;
+}
+
+#part5 .d-flex justify-content-center{
+position: relative;
+top:50%;
+-webkit-transform: translateY(-50%);
+-ms-transform:translateY(-50%);
+transform: translateY(-50%);
+}
+
+#part5 hr{
+    border: 4px solid #2fc29d;
+    background: #2fc29d;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
